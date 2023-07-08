@@ -3,7 +3,7 @@
 Welcome to the Love Connect Website! This readme file provides an overview of the design objectives and considerations for creating an engaging and user-friendly dating platform.
 
 ![LoveConnect (1)](https://github.com/Pjha72/Love_Connect/assets/88606641/e9777694-03c1-4765-bf8b-be7d3565c0e8)
-
+<a href="https://github.com/Pjha72/Love_Connect/assets/88606641/e9777694-03c1-4765-bf8b-be7d3565c0e8">Image2</a>
 
 ## Objective
 
