@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import SignIn from './pages/SignIn';
@@ -22,7 +22,7 @@ function App() {
           <Route path='/profile' element={<PrivateRoute />}>
             <Route path='/profile' element={<Profile />} />
           </Route>
-          
+
           <Route path='/sign-in' element={<SignIn />} />
           <Route path='/sign-out' element={<SignOut />} />
           <Route path='/forgot-password' element={<ForgotPassword />} />
@@ -32,7 +32,7 @@ function App() {
           <Route path='/create-listing' element={<PrivateRoute />}>
             {/* <Route path='/create-listing' element={<CreateListing />} /> */}
           </Route>
-          
+
         </Routes>
       </Router>
       <ToastContainer
