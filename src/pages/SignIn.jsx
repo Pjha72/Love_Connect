@@ -44,7 +44,7 @@ export default function SignIn() {
       <div className='flex justify-center flex-wrap items-center px-6 py-12 max-w-6xl mx-auto'>
         {/* For Image */}
         <div className='md:w-[67%] lg:w-[50%] mb-12 md:mb-6'>
-          <img src="https://cdn3d.iconscout.com/3d/premium/thumb/login-verified-6251835-5117015.png" alt="Key"
+          <img src="https://png.pngtree.com/png-clipart/20230522/original/pngtree-3d-cartoon-indian-wedding-couple-png-image_9166987.png" alt="Key"
           className='w-full h-[85%] rounded-2xl' />
         </div>
         {/* For Form Data */}
