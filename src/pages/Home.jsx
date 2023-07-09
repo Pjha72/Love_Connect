@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
                   class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out  mb-6"
                 />
               </div>
+              
               <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg mb-6">
                 Search
               </button>
@@ -409,7 +411,7 @@ export default function Home() {
   </div>
 </section>
 
-
+{/* API KEY : https://dating-omwg.onrender.com/users */}
 
 
 
