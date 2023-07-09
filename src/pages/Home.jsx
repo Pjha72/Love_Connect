@@ -27,7 +27,7 @@ export default function Home() {
                   class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out  mb-6"
                 />
               </div>
-              
+
               <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg mb-6">
                 Search
               </button>
@@ -291,133 +291,529 @@ export default function Home() {
         </div>
       </section>
 
-{/* Find Your Match Section */}
-<section class=" body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 className='text-4xl text-center mt-6 font-bold border-b-[3px] border-b-red-600 uppercase '>Meet Your Partner</h1>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center shawdow hover:shadow-lg rounded cursor-pointer">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg" />
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">Name : <span className="font-medium text-lg text-gray-500 hover:text-gray-700">Alper Kamu </span></h2>
-            <h2 class="title-font font-medium text-lg text-gray-900">Email : <span className="font-medium text-lg text-gray-500 hover:text-gray-700">abc21@gmail.com </span></h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-flex">
-              <a class="text-gray-500 cursor-pointer hover:text-blue-900 dark:hover:text-white dark:text-gray-400 mx-3">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer hover:text-red-900 dark:hover:text-white dark:text-gray-400 mx-3">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer hover:text-gray-900 dark:hover:text-white dark:text-gray-400 mx-3">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
+      {/* Find Your Match Section */}
+      <section class=" body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 className="text-4xl text-center mt-6 font-bold border-b-[3px] border-b-red-600 uppercase ">
+              Meet Your Partner
+            </h1>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center shawdow hover:shadow-lg rounded cursor-pointer">
+                <img
+                  alt="team"
+                  class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg"
+                />
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Name :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Alper Kamu{" "}
+                    </span>
+                  </h2>
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Email :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      abc21@gmail.com{" "}
+                    </span>
+                  </h2>
+
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Gender :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Male
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Location :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Mumbai
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900 mb-6">
+                    Interest :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Music
+                    </span>
+                  </h3>
+
+                  <span class="inline-flex">
+                    <a class="text-gray-500 cursor-pointer hover:text-blue-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-red-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-gray-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center cursor-pointer">
+                <img
+                  alt="team"
+                  class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg"
+                />
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Name :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Alper Kamu{" "}
+                    </span>
+                  </h2>
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Email :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      abc21@gmail.com{" "}
+                    </span>
+                  </h2>
+
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Gender :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Male
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Location :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Mumbai
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900 mb-6">
+                    Interest :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Music
+                    </span>
+                  </h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-500 cursor-pointer hover:text-blue-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-red-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-green-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center cursor-pointer">
+                <img
+                  alt="team"
+                  class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg"
+                />
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Name :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Alper Kamu{" "}
+                    </span>
+                  </h2>
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Email :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      abc21@gmail.com{" "}
+                    </span>
+                  </h2>
+
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Gender :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Male
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Location :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Mumbai
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900 mb-6">
+                    Interest :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Music
+                    </span>
+                  </h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-500 cursor-pointer hover:text-blue-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-red-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-green-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center cursor-pointer">
+                <img
+                  alt="team"
+                  class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg"
+                />
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Name :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Alper Kamu{" "}
+                    </span>
+                  </h2>
+                  <h2 class="title-font font-medium text-lg text-gray-900">
+                    Email :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      abc21@gmail.com{" "}
+                    </span>
+                  </h2>
+
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Gender :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Male
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900">
+                    Location :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Mumbai
+                    </span>
+                  </h3>
+                  <h3 class="title-font font-medium text-lg text-gray-900 mb-6">
+                    Interest :{" "}
+                    <span className="font-medium text-lg text-gray-500 hover:text-gray-700">
+                      Music
+                    </span>
+                  </h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-500 cursor-pointer hover:text-blue-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-red-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-500 cursor-pointer hover:text-green-900 dark:hover:text-white dark:text-gray-400 mx-3">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg" />
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-flex">
-              <a class="text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
+      </section>
+
+      {/* API KEY : https://dating-omwg.onrender.com/users */}
+
+      {/* Testonomial */}
+      <section class="text-gray-600 body-font">
+        <h1 className="text-4xl text-center text-gray-900 mt-6 font-bold border-b-[3px] border-b-red-600 uppercase ">
+          TESTIMONIAL
+        </h1>
+        {/* <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4 text-center justify-center"></span> */}
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div class="h-full text-center">
+                <img
+                  alt="testimonial"
+                  class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                  src="https://w7.pngwing.com/pngs/600/667/png-transparent-megaphone-graphy-woman-happy-woman-microphone-photography-woman-thumbnail.png"
+                />
+                <p class="leading-relaxed font-medium text-lg text-gray-500 hover:text-gray-700 cursor-pointer text-justify">
+                  I had been on Tinder for about two years, but I had fewer than
+                  a hundred matches because I’m so picky. I saw Rafael’s profile
+                  and what really stood out to me was the photo that showed his
+                  huuuge…library! I’m a bookworm, so seeing that he had even
+                  more books than I did was what really made me swipe right on
+                  him.
+                </p>
+                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <h2 class="text-gray-900 font-semibold title-font tracking-wider text-lg cursor-pointer">
+                  HOLDEN CAULFIELD
+                </h2>
+                <p class="font-md text-gray-500 hover:text-gray-900 cursor-pointer">Senior Product Designer</p>
+              </div>
+            </div>
+            <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div class="h-full text-center">
+                <img
+                  alt="testimonial"
+                  class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                  src="https://cdn.xxl.thumbs.canstockphoto.com/happy-business-woman-success-portrait-of-happy-young-business-woman-isolated-on-white-background-picture_csp13027118.jpg"
+                />
+                <p class="leading-relaxed font-medium text-lg text-gray-500 hover:text-gray-700 cursor-pointer text-justify">
+                  I had been on Tinder for about two years, but I had fewer than
+                  a hundred matches because I’m so picky. I saw Rafael’s profile
+                  and what really stood out to me was the photo that showed his
+                  huuuge…library! I’m a bookworm, so seeing that he had even
+                  more books than I did was what really made me swipe right on
+                  him.
+                </p>
+                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <h2 class="text-gray-900 font-semibold title-font tracking-wider text-lg cursor-pointer">
+                  ALPER KAMU
+                </h2>
+                <p class="font-md text-gray-500 hover:text-gray-900 cursor-pointer">UI Develeoper</p>
+              </div>
+            </div>
+            <div class="lg:w-1/3 lg:mb-0 p-4">
+              <div class="h-full text-center">
+                <img
+                  alt="testimonial"
+                  class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+                  src="https://www.pngplay.com/wp-content/uploads/15/Happy-Woman-Background-PNG-Image.png"
+                />
+                <p class="leading-relaxed font-medium text-lg text-gray-500 hover:text-gray-700 cursor-pointer text-justify">
+                  I had been on Tinder for about two years, but I had fewer than
+                  a hundred matches because I’m so picky. I saw Rafael’s profile
+                  and what really stood out to me was the photo that showed his
+                  huuuge…library! I’m a bookworm, so seeing that he had even
+                  more books than I did was what really made me swipe right on
+                  him.
+                </p>
+                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <h2 class="text-gray-900 font-semibold title-font tracking-wider text-lg cursor-pointer">
+                  HENRY LETHAM
+                </h2>
+                <p class="font-md text-gray-500 hover:text-gray-900 cursor-pointer">CTO</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg" />
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-flex">
-              <a class="text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
+      </section>
+{/*  */}
+
+      {/* Contact Section - Start */}
+      <section class="text-gray-900 body-font relative">
+        <h1 className="text-4xl text-center mt-6 font-bold border-b-[3px] border-b-red-600 uppercase ">
+          Contact Us
+        </h1>
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <iframe
+              width="100%"
+              height="100%"
+              class="absolute inset-0"
+              frameborder="0"
+              title="map"
+              marginheight="0"
+              marginwidth="0"
+              scrolling="no"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+            ></iframe>
+            <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+              <div class="lg:w-1/2 px-6">
+                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                  ADDRESS
+                </h2>
+                <p class="mt-1">
+                  Brafpada Bhatpada virar east Mumbai , Maharashtra - 401305
+                </p>
+              </div>
+              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                  EMAIL
+                </h2>
+                <a class="text-indigo-500 leading-relaxed">
+                  pjha2186@email.com
+                </a>
+                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+                  PHONE
+                </h2>
+                <p class="leading-relaxed">9152380358</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            <h2 class="text-gray-500 hover:text-gray-900 cursor-pointer text-2xl text-center mb-1 font-bold title-font uppercase">
+              Feedback
+            </h2>
+            <p class="leading-relaxed mb-5 text-gray-600 hover:text-gray-900 cursor-pointer">
+            I know, you thought it was just another boring day until you saw.
+            </p>
+            <div class="relative mb-4">
+              <label for="name" class="leading-7 text-sm text-gray-600">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                data-gramm="false"
+                wt-ignore-input="true"
+              ></textarea>
+            </div>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              Send Me
+            </button>
+            <p class="text-xs text-gray-900 mt-3 text-center">
+              Happy Life
+            </p>
           </div>
         </div>
-      </div>
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-fit object-center mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="https://c4.wallpaperflare.com/wallpaper/266/817/134/men-face-beard-brown-eyes-wallpaper-preview.jpg" />
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-            <span class="inline-flex">
-              <a class="text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
-              </a>
-              <a class="ml-2 text-gray-500 cursor-pointer">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                </svg>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* API KEY : https://dating-omwg.onrender.com/users */}
+      </section>
+{/* Contact Section - End */}
 
 
 
-
-
-{/* Footer Section */}
+      {/* Footer Section */}
       <footer class="bg-white ">
         <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10 border-t-[3px] border-t-red-600">
           <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
